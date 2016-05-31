@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+
+        android:id="@+id/background"
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="90dp"
+        android:src="@drawable/background2" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:background="#9FFF"></View>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=" <- AGITROP - SELECTION OF
+        DOCUMENTARIES"
+        android:textColor="@color/abc_search_url_text_selected"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:text="Adress:Orpheus Open Air Cinema, Todor Kableshkov Str." />
+
+    <TextView
+        android:id="@+id/secont_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:text="Agliptrop takes pard in the Night with a special selection of documentaries." />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/secont_text">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/secont_text">
+
+            <TextView
+                android:id="@+id/first_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="11 септември "
+                android:textColor="@color/abc_search_url_text_selected" />
+
+
+            <TextView
+                android:id="@+id/first_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/first_date"
+                android:text="    _______________________________________________________" />
+
+            <ImageView
+                android:id="@+id/first_feather"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/first_line"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/feather" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/first_line"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/first_feather"
+                android:text="Tsvetanka"
+                android:textColor="@color/abc_search_url_text_selected" />
+
+            <TextView
+                android:id="@+id/first_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/first_feather"
+                android:layout_alignEnd="@+id/first_line"
+                android:layout_alignRight="@+id/first_line"
+                android:text="20:00-21:00" />
+
+            <ImageView
+                android:id="@+id/first_star"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignEnd="@+id/first_line"
+                android:layout_alignRight="@+id/first_line"
+                android:layout_below="@+id/first_time"
+                android:src="@drawable/star" />
+
+            <TextView
+                android:id="@+id/second_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/first_star"
+                android:text="    _______________________________________________________" />
+
+            <ImageView
+                android:id="@+id/second_feather"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/second_line"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/feather" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/second_line"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/second_feather"
+                android:text="The Last Black Sea Pirates"
+                android:textColor="@color/abc_search_url_text_selected" />
+
+            <TextView
+                android:id="@+id/second_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/second_feather"
+                android:layout_alignEnd="@+id/second_line"
+                android:layout_alignRight="@+id/second_line"
+                android:text="22:00-23:00" />
+
+            <ImageView
+                android:id="@+id/second_star"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignEnd="@+id/second_line"
+                android:layout_alignRight="@+id/second_line"
+                android:layout_below="@+id/second_time"
+                android:src="@drawable/star" />
+
+            <TextView
+                android:id="@+id/third_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/second_star"
+                android:text="    _______________________________________________________" />
+
+            <TextView
+                android:id="@+id/second_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/third_line"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="11 септември "
+                android:textColor="@color/abc_search_url_text_selected" />
+
+            <TextView
+                android:id="@+id/fourth_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/second_date"
+                android:text="    _______________________________________________________" />
+
+            <ImageView
+                android:id="@+id/third_feather"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/fourth_line"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/feather" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fourth_line"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/third_feather"
+                android:text="Kusmet"
+                android:textColor="@color/abc_search_url_text_selected" />
+
+            <TextView
+                android:id="@+id/third_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/third_feather"
+                android:layout_alignEnd="@+id/fourth_line"
+                android:layout_alignRight="@+id/fourth_line"
+                android:text="20:00-21:00" />
+
+            <ImageView
+                android:id="@+id/third_star"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignEnd="@+id/fourth_line"
+                android:layout_alignRight="@+id/fourth_line"
+                android:layout_below="@+id/third_time"
+                android:src="@drawable/star" />
+
+            <TextView
+                android:id="@+id/fifth_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/third_star"
+                android:text="    _______________________________________________________"></TextView>
+
+            <ImageView
+                android:id="@+id/fourth_feather"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/fifth_line"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/feather" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fifth_line"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/fourth_feather"
+                android:text="Love and Engineering"
+                android:textColor="@color/abc_search_url_text_selected" />
+
+            <TextView
+                android:id="@+id/fourth_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/fourth_feather"
+                android:layout_alignEnd="@+id/fifth_line"
+                android:layout_alignRight="@+id/fifth_line"
+                android:text="22:00-23:00" />
+
+            <ImageView
+                android:id="@+id/fourth_star"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignEnd="@+id/fifth_line"
+                android:layout_alignRight="@+id/fifth_line"
+                android:layout_below="@+id/fourth_time"
+                android:src="@drawable/star" />
+
+            <TextView
+                android:id="@+id/sixth_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fourth_star"
+                android:text="    _______________________________________________________" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

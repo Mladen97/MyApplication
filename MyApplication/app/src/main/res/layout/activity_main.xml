@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imaageDropBox"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:src="@drawable/dropbox_1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/play" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imaageDropBox"
+            android:layout_centerHorizontal="true"
+            android:text="Dropbox"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        >
+
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:text="Email"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/text_email"
+            android:layout_alignStart="@+id/text_email"
+            android:layout_below="@+id/text_email"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edit_email"
+            android:layout_alignStart="@+id/edit_email"
+            android:layout_below="@+id/edit_email"
+            android:layout_marginTop="15dp"
+            android:text="Password"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@id/text_password"
+            android:layout_alignStart="@id/text_password"
+            android:layout_below="@id/text_password"
+            android:background="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/edit_password"
+            android:layout_alignRight="@id/edit_password"
+            android:layout_below="@id/edit_password"
+            android:text="Log in" />
+
+        <TextView
+            android:id="@+id/txt_asking1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_login"
+            android:layout_centerHorizontal="true"
+            android:text="New to Dropbox? Create a free account"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_asking1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Forgot your password?"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+

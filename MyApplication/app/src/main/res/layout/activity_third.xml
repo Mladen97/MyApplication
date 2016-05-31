@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/house"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40000000">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="31dp"
+            android:src="@drawable/airbnbdesignine8" />
+
+        <EditText
+            android:id="@+id/first_txt"
+            android:layout_width="313dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="#FFFFFF"
+            android:text="                             Google" />
+
+        <EditText
+            android:id="@+id/txt_FB"
+            android:layout_width="313dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/first_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            android:text="                         Facebook"
+
+            />
+
+        <EditText
+            android:id="@+id/last_txt"
+            android:layout_width="313dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/first_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#50FFFFFF"
+            android:text="                               Email" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/last_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="We promise we wont post anything to your wall
+             unless you ask us to."
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/txt_FB"
+            android:layout_alignStart="@+id/txt_FB"
+            android:layout_alignTop="@+id/txt_FB"
+            android:src="@drawable/social_facebook_box_blue" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@id/first_txt"
+            android:layout_alignStart="@id/first_txt"
+            android:layout_alignTop="@id/first_txt"
+            android:src="@drawable/Google_Plus_logo" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
